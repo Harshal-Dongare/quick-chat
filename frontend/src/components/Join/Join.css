@@ -1,0 +1,64 @@
+.joinpage {
+    background-color: rgb(42, 41, 41);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-container {
+    /* height: 50%; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.join-container > img {
+    width: 12vmax;
+}
+
+.join-container > h1 {
+    color: white;
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.join-container > input {
+    width: 80%;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.join-btn {
+    /* width: 80%; */
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: #ffe53b;
+    background-image: linear-gradient(
+        147deg,
+        #ffe53b 0%,
+        #ff2525 48%,
+        #831988 91%
+    );
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.join-btn:hover {
+    opacity: 0.88;
+}
